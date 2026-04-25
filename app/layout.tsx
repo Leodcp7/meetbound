@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Meetbound Agency — Cold Email & LinkedIn Lead Generation',
   description: 'We build AI-powered outreach systems that generate qualified leads on LinkedIn and email. Stop chasing. Start converting.',
@@ -10,11 +12,6 @@ export const metadata: Metadata = {
     url: 'https://meetbound.agency',
     siteName: 'Meetbound Agency',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Meetbound Agency',
-    description: 'AI-powered cold email & LinkedIn outreach that converts.',
   },
 }
 
