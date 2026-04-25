@@ -1,0 +1,2 @@
+// This file ensures the /api/leads directory exists
+// The actual route is in route.ts
